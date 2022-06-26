@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "stm32")(type "KiCad")(uri "/home/bimo/.local/share/kicad/6.0/footprints/stm32")(options "")(descr ""))
+)

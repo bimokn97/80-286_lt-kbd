@@ -3,7 +3,7 @@ A mechanical keyboard from old laptop called Goldstar GPC-4013B, with STM32F401 
 
 # choose firmware
   * Diy arduino firmware
-      [download](https://github.com/bimokn97/80-286_lt-kbd/edit/master/README.md) the .ino file, and open it using arduino software, than flash it.
+      [download](https://github.com/bimokn97/80-286_lt-kbd/master/stmduino/stmduino.ino) the .ino file, and open it using arduino software, than flash it.
 
   * [QMK Firmware](https://github.com/qmk/qmk_firmware.git) 
     * clone the repository     : `git clone https://github.com/bimokn97/qmk_firmware.git`
@@ -12,10 +12,13 @@ A mechanical keyboard from old laptop called Goldstar GPC-4013B, with STM32F401 
     * build it                 : `make 286_lt:default` or `make 286_lt:via` for costumable layout by [via](https://caniusevia.com)
    
    * [Vial Firmware](https://github.com/vial_qmk/vial.git)
-    * clone the repository: `git clone https://github.com/bimokn97/vial_qmk.git`
-    * cd to directory     : `cd qmk_firmware`
-    * switch to develop branch : `git checkout develop`
-    * build it                 : `make 286_lt:vial` for costumable layout by [vial]([https://caniusevia.com](https://get.vial.today/))
+     * clone the repository     : `git clone https://github.com/bimokn97/vial_qmk.git`
+     * cd to directory          : `cd qmk_firmware`
+     * switch to develop branch : `git checkout develop`
+     * build it                 : `make 286_lt:vial` for costumable layout by [vial]([https://caniusevia.com](https://get.vial.today/))
 
 # pcb layout and schematic
-  * on the way
+  using [Kicad](https://www.kicad.org/)
+  * keyboard pcb        : [github.com/bimokn97/master/schematic_pcb/keyboard]
+  * mcu connector board : [github.com/bimokn97/master/schematic_pcb/mcu_board]
+    connector FPC 22 pin 1mm pitch
